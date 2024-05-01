@@ -57,7 +57,7 @@ const Home = () => {
 
 			<div className='container my-36 mx-auto md:px-6'>
 				<section className='mb-32 text-center'>
-					<div className='grid gap-x-6 md:grid-cols-2 lg:grid-cols-4 lg:gap-x-12'>
+					<div className='grid gap-x-6 md:grid-cols-2 lg:grid-cols-3 lg:gap-x-12 gap-y-12'>
 						<div className='mb-12 lg:mb-0 flex flex-col items-center'>
 							<Image
 								src='/ipfsr-logo.png'
@@ -122,6 +122,21 @@ const Home = () => {
 								GO datastore plugin for IPFSR Kubo
 							</h5>
 							<Link href='https://github.com/IPFSR' target='_blank'>
+								<Button>Visit Link</Button>
+							</Link>
+						</div>
+						<div className='mb-12 lg:mb-0 flex flex-col items-center'>
+							<Image
+								src='/ipfs-s3.png'
+								alt='IPFSR Logo'
+								width={140}
+								height={60}
+								className='mb-4'
+							/>
+							<h5 className='mb-4 text-lg font-bold'>
+								An s3 datastore implementation
+							</h5>
+							<Link href='https://github.com/ipfs/go-ds-s3' target='_blank'>
 								<Button>Visit Link</Button>
 							</Link>
 						</div>
